@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(File.expand_path('../lib', __FILE__))
 require 'mail_queue/version'
 
 Gem::Specification.new do |s|
-  s.name = 'mail_queue'
+  s.name = 'pipeline-mail_queue'
   s.version = MailQueue::VERSION
   s.authors = ['@botanicus']
   s.homepage = 'http://github.com/botanicus/mail_queue'
