@@ -1,6 +1,5 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env bundle exec ruby
 
 require 'mail_queue'
 
-plugin = MailQueue.new(Dir.pwd)
-plugin.run
+MailQueue::Consumer.run(Dir.pwd)
